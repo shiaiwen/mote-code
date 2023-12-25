@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arr = ['a', 123, { a: '1', b: '2' }]
+        arr.name = 'demo'
+        for (let index in arr) {
+            console.log(`${arr[index]}`)
+        }
+        for (const item of arr) {
+            console.log(item)
+        }
+
+
+    </script>
+</body>
+
+</html>
